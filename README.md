@@ -1,6 +1,6 @@
 ## vim-stringify
-=============
-
+----------
+## What is vim-stringify ?
 Turn your raw template into concated string
 Here is your raw template :
 ```html
@@ -34,5 +34,15 @@ Here is your raw template :
 
 ```
 
+## Installation
+Install using [vundle](https://github.com/gmarik/vundle)
+```viml
+Bundle '29decibel/vim-stringify'
+```
+
+Key mapping
+```viml
+map <leader>g :call Stringify()<CR>
+```
 ---
 Enjoy!
