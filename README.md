@@ -3,7 +3,7 @@
 
 Turn your raw template into concated string
 Here is your raw template :
-```
+```html
 <div class="post">
   <h1>By {{fullName author}}</h1>
   <div class="body">{{body}}</div>
@@ -19,7 +19,7 @@ Here is your raw template :
 
 ```:call Strigify() ``` will turn it into this:
 
-```
+```javascript
 '<div class="post">' +
   '<h1>By {{fullName author}}</h1>' +
   '<div class="body">{{body}}</div>' +
