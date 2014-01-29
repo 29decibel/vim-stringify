@@ -1,7 +1,6 @@
-## vim-stringify
-----------
-## What is vim-stringify ?
-Turn your raw template into concated string
+## About
+__vim-stringify__ is a small plugin help turning your raw template into concated string.
+
 Here is your raw template :
 ```html
 <div class="post">
