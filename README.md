@@ -1,3 +1,4 @@
+![screenshots](https://raw.github.com/29decibel/vim-stringify/master/vim-stringify.gif)
 ## About
 __vim-stringify__ is a small plugin help turning your raw template into concated string.
 
