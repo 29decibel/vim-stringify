@@ -10,7 +10,9 @@ function! Stringify() range
     endif
     let newline = getline(linenum)
     " escape single quote
-    let newline = substitute(newline, "'", "\\\\\\\'", 'g')
+    " \\\\ is \
+    " \= means previous char is optional
+    let newline = substitute(newline, "\\\\\\='", "\\\\\\\'", 'g')
     " add single quotes and plus
     let newline = substitute(newline,'\(\S.*\)', replaceSub ,'g')
     call setline(linenum, newline)
