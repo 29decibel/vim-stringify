@@ -1,6 +1,6 @@
 ![screenshots](https://raw.github.com/29decibel/vim-stringify/master/vim-stringify.gif)
 ## About
-__vim-stringify__ is a small plugin help turning your raw template into concated string.
+__vim-stringify__ is a small plugin that turns your raw templates into concatenated strings.
 
 Here is your raw template :
 ```html
@@ -17,7 +17,7 @@ Here is your raw template :
 </div>
 ```
 
-```:call Strigify() ``` will turn it into this:
+```:call Stringify() ``` will turn it into this:
 
 ```javascript
 '<div class="post">' +
